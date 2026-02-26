@@ -117,11 +117,11 @@
 
     $valor8 = readline("Digite um valor:");
 
-    $calc3 = $valor8 * 0.07;
-    $calc4 = $valor8 - $calc3;
+    $calc5 = $valor8 * 0.07;
+    $calc4 = $valor8 - $calc5;
 
     echo "Result9 Valor orginal: ". $valor8. "\n";
-    echo "Result9 Valor Desconto: ". $calc3. "\n";
+    echo "Result9 Valor Desconto: ". $calc5. "\n";
     echo "Result9 Valor com Desconto: ". $calc4. "\n";
 
     echo "<hr>";
@@ -131,20 +131,47 @@
 // Calcular e apresentar o volume de uma caixa retangular: volume = comprimento x largura x altura
 // ------------------------------
 
+
+
 // ------------------------------
 // Exercício 11
 // Receber um valor, calcular e mostrar um desconto de 27%
 // ------------------------------
+
+    $valor9 = readline("Digite um valor: ");
+
+    $calc6 = $valor9 * 0.27;
+
+    echo "Result8: ". $calc6;
+
+    echo "<hr>";
 
 // ------------------------------
 // Exercício 12
 // Receber dois valores, calcular e apresentar a área de um trapézio
 // ------------------------------
 
+    $valor10 = readline("Digite um valor Maior: ");
+    $valor11 = readline(prompt: "Digite um valor Menor: ");
+    $valor12 = readline(prompt: "Digite a altura da area: ");
+
+    $calc7 = ($valor10 + $valor11) * $valor12 / 2;
+
+    echo "Result: ". $calc7;
+
+    echo "<hr>";
+
 // ------------------------------
 // Exercício 13
 // Ler 3 notas, calcular média ponderada (pesos: 2, 3, 5)
 // ------------------------------
+
+    $valor13 = readline("Digite um valor nota1: ");
+    $valor14 = readline(prompt: "Digite um valor nota2: ");
+    $valor15 = readline(prompt: "Digite um valor nota3: ");
+
+    
+
 
 // ------------------------------
 // Exercício 14
