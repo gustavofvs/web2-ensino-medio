@@ -8,20 +8,33 @@
     $n1 = 13;
     $n2 = 22;
 
-    $result = ($n1 + $n2) + $n1;
+    $result1 = ($n1 + $n2) + $n1;
 
-    echo "Result:". $result
+    echo "Result1:". $result1;
 
+
+    echo "<hr>";
 
 // ------------------------------
 // Exercício 2
 // Ler três números (Val1, Val2, Val3), calcular a média e exibir o resultado
 // ------------------------------
 
+    $val1 = 10; $val2 = 58; $val3 = 90;
+
+    $result2 = ($val1 + $val2 + $val3) / 3;
+    
+    echo "Result2:". $result2;  
+
+    echo "<hr>";
+
 // ------------------------------
 // Exercício 3
 // Receber um valor, calcular e mostrar 15% deste valor
 // ------------------------------
+
+    
+
 
 // ------------------------------
 // Exercício 4
