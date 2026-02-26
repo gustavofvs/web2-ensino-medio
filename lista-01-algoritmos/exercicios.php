@@ -96,16 +96,26 @@
     echo "Result7 IMC: ". $calc2;
 
     echo "<hr>";
-    
+
 // ------------------------------
 // Exercício 8
 // Receber um valor, calcular e mostrar um desconto de 9%
 // ------------------------------
 
+    $valor7 = readline("Digite um valorr: ");
+
+    $calc3 = $valor7 * 0.09;
+
+    echo "". $calc3;
+
+    echo "<hr>";
+
 // ------------------------------
 // Exercício 9
 // Receber valor de um produto, calcular desconto de 7%, exibir valor original, desconto e valor com desconto
 // ------------------------------
+
+
 
 // ------------------------------
 // Exercício 10
