@@ -8,9 +8,9 @@
     $n1 = 13;
     $n2 = 22;
 
-    $result1 = ($n1 + $n2) + $n1;
+    $result1 = ($n1 + $n2) * $n1;
 
-    echo "Result1:". $result1;
+    echo "Result1: ". $result1;
 
 
     echo "<hr>";
@@ -24,7 +24,7 @@
 
     $result2 = ($val1 + $val2 + $val3) / 3;
     
-    echo "Result2:". $result2;  
+    echo "Result2: ". $result2;  
 
     echo "<hr>";
 
@@ -36,7 +36,7 @@
     $valor = readline("Digite um valor: ");
     $result3 = $valor * 0.15;
 
-    echo "Result3:". $result3;
+    echo "Result3: ". $result3;
 
     echo "<hr>";
 
@@ -44,6 +44,13 @@
 // Exercício 4
 // Receber um valor, calcular e mostrar 5% e 50% deste valor
 // ------------------------------
+
+    $valor2 = readline("Digite um valor: ");
+    $result4 = $valor2 * 0.05;
+    $result5 = $valor2 * 0.5;
+
+    echo "Result4: 5%: ". $result4. " 50%: ". $result5;
+
 
 // ------------------------------
 // Exercício 5
