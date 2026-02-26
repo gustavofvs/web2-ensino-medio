@@ -33,8 +33,12 @@
 // Receber um valor, calcular e mostrar 15% deste valor
 // ------------------------------
 
-    
+    $valor = readline("Digite um valor: ");
+    $result3 = $valor * 0.15;
 
+    echo "Result3:". $result3;
+
+    echo "<hr>";
 
 // ------------------------------
 // Exercício 4
