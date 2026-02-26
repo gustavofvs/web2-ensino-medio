@@ -131,7 +131,15 @@
 // Calcular e apresentar o volume de uma caixa retangular: volume = comprimento x largura x altura
 // ------------------------------
 
+    $valor19 = readline("Digite um valor para o comprimento: ");
+    $valor20 = readline(prompt: "Digite um valor para a largura: ");
+    $valor21 = readline(prompt: "Digite um valor para a altura: ");
 
+    $calc12 = $valor19 * $valor20 * $valor21;
+
+    echo "Result: ". $calc12;
+
+    echo "<hr>";
 
 // ------------------------------
 // Exercício 11
