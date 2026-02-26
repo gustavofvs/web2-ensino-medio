@@ -66,7 +66,7 @@
 
     $result6 = $valor3 + $valor4;
 
-    echo "Result: ". $result6;
+    echo "Result5: ". $result6;
 
     echo "<hr>";
 
@@ -75,8 +75,13 @@
 // Ler a velocidade em m/s, calcular e exibir em km/h
 // ------------------------------
 
-    $valor5 = readline("Digite um valor");
+    $valor5 = readline("Q6 Digite um valor");
 
+    $result7 = $valor5 * 3.6;
+
+    echo "Result6: ". $result7. " km/h";
+
+    echo "<hr>";
 
 // ------------------------------
 // Exercício 7
