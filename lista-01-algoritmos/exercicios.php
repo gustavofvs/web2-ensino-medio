@@ -62,9 +62,9 @@
     $valor4 = readline("Q5 Digite um valor: ");
 
     $quadrado1 = $valor3 ** 2;
-    $quadrado1 = $valor4 ** 2;
+    $quadrado2 = $valor4 ** 2;
 
-    $result6 = $valor3 + $valor4;
+    $result6 = $quadrado1 + $quadrado2;
 
     echo "Result5: ". $result6;
 
@@ -132,8 +132,8 @@
 // ------------------------------
 
     $valor19 = readline("Digite um valor para o comprimento: ");
-    $valor20 = readline(prompt: "Digite um valor para a largura: ");
-    $valor21 = readline(prompt: "Digite um valor para a altura: ");
+    $valor20 = readline("Digite um valor para a largura: ");
+    $valor21 = readline("Digite um valor para a altura: ");
 
     $calc12 = $valor19 * $valor20 * $valor21;
 
@@ -160,8 +160,8 @@
 // ------------------------------
 
     $valor10 = readline("Digite um valor Maior: ");
-    $valor11 = readline(prompt: "Digite um valor Menor: ");
-    $valor12 = readline(prompt: "Digite a altura da area: ");
+    $valor11 = readline("Digite um valor Menor: ");
+    $valor12 = readline("Digite a altura da area: ");
 
     $calc7 = ($valor10 + $valor11) * $valor12 / 2;
 
@@ -175,12 +175,12 @@
 // ------------------------------
 
     $valor13 = readline("Digite um valor nota1: ");
-    $valor14 = readline(prompt: "Digite um valor nota2: ");
-    $valor15 = readline(prompt: "Digite um valor nota3: ");
+    $valor14 = readline("Digite um valor nota2: ");
+    $valor15 = readline("Digite um valor nota3: ");
 
     $calc8 = (($valor13 * 2) + ($valor14 * 3) + ($valor15 * 5)) / 10;
 
-    echo "Result: ". $valor8;
+    echo "Result: ". $calc8;
     
     echo "<hr>";
 
@@ -192,11 +192,10 @@
         
     $valor16 = readline("Digite um valor: ");
 
-    $calc9 = $valor16 * 16; 
+    $calc9 = $valor16 * 1.16; 
     $calc10 = $calc9 / 10; 
 
-    echo "Result: ". $calc10;
-    echo "Result: ". $calc9;
+    echo "parcela: " . $calc10 . " total: " . $calc9;
 
     echo "<hr>";
 
@@ -205,8 +204,8 @@
 // Receber distância (km) e combustível (litros), calcular e imprimir consumo médio: Consumo médio = Km / litros
 // ------------------------------
 
-    $valor17 = readline(prompt: "Digite uma velocidade em KM/H: ");
-    $valor18 = readline(prompt: "Digite um valor de combustível: ");
+    $valor17 = readline("Digite a distância em KM: ");
+    $valor18 = readline("Digite um valor de combustível: ");
 
     $calc11 = $valor17 / $valor18;
 
