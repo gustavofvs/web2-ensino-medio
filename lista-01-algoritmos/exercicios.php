@@ -33,7 +33,7 @@
 // Receber um valor, calcular e mostrar 15% deste valor
 // ------------------------------
 
-    $valor = readline("Digite um valor: ");
+    $valor = readline("Q3 Digite um valor: ");
     $result3 = $valor * 0.15;
 
     echo "Result3: ". $result3;
@@ -45,22 +45,38 @@
 // Receber um valor, calcular e mostrar 5% e 50% deste valor
 // ------------------------------
 
-    $valor2 = readline("Digite um valor: ");
+    $valor2 = readline("Q4 Digite um valor: ");
     $result4 = $valor2 * 0.05;
     $result5 = $valor2 * 0.5;
 
     echo "Result4: 5%: ". $result4. " 50%: ". $result5;
 
+    echo "<hr>";
 
 // ------------------------------
 // Exercício 5
 // Ler dois números, calcular o quadrado de cada um, somar os quadrados e mostrar o resultado
 // ------------------------------
 
+    $valor3 = readline("Q5 Digite um valor: ");
+    $valor4 = readline("Q5 Digite um valor: ");
+
+    $quadrado1 = $valor3 ** 2;
+    $quadrado1 = $valor4 ** 2;
+
+    $result6 = $valor3 + $valor4;
+
+    echo "Result: ". $result6;
+
+    echo "<hr>";
+
 // ------------------------------
 // Exercício 6
 // Ler a velocidade em m/s, calcular e exibir em km/h
 // ------------------------------
+
+    $valor5 = readline("Digite um valor");
+
 
 // ------------------------------
 // Exercício 7
