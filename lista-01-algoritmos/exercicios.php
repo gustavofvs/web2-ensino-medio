@@ -188,7 +188,8 @@
     $calc10 = $calc9 / 10; 
 
     echo "Result: ". $calc10;
-    
+    echo "Result: ". $calc9;
+
     echo "<hr>";
 
 // ------------------------------
@@ -196,6 +197,11 @@
 // Receber distância (km) e combustível (litros), calcular e imprimir consumo médio: Consumo médio = Km / litros
 // ------------------------------
 
-    
+    $valor17 = readline(prompt: "Digite uma velocidade em KM/H: ");
+    $valor18 = readline(prompt: "Digite um valor de combustível: ");
+
+    $calc11 = $valor17 / $valor18;
+
+    echo "Result: ". $calc11;
 
 ?>
