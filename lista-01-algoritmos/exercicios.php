@@ -170,7 +170,11 @@
     $valor14 = readline(prompt: "Digite um valor nota2: ");
     $valor15 = readline(prompt: "Digite um valor nota3: ");
 
+    $calc8 = (($valor13 * 2) + ($valor14 * 3) + ($valor15 * 5)) / 10;
+
+    echo "Result: ". $valor8;
     
+        echo "<hr>";
 
 
 // ------------------------------
