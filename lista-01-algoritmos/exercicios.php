@@ -106,7 +106,7 @@
 
     $calc3 = $valor7 * 0.09;
 
-    echo "". $calc3;
+    echo "Result8: ". $calc3;
 
     echo "<hr>";
 
@@ -115,7 +115,16 @@
 // Receber valor de um produto, calcular desconto de 7%, exibir valor original, desconto e valor com desconto
 // ------------------------------
 
+    $valor8 = readline("Digite um valor:");
 
+    $calc3 = $valor8 * 0.07;
+    $calc4 = $valor8 - $calc3;
+
+    echo "Result9 Valor orginal: ". $valor8. "\n";
+    echo "Result9 Valor Desconto: ". $calc3. "\n";
+    echo "Result9 Valor com Desconto: ". $calc4. "\n";
+
+    echo "<hr>";
 
 // ------------------------------
 // Exercício 10
