@@ -75,7 +75,7 @@
 // Ler a velocidade em m/s, calcular e exibir em km/h
 // ------------------------------
 
-    $valor5 = readline("Q6 Digite um valor");
+    $valor5 = readline("Q6 Digite uma velocidade em m/s: ");
 
     $result7 = $valor5 * 3.6;
 
@@ -88,6 +88,15 @@
 // Ler altura e peso, calcular IMC e exibir para o usuário
 // ------------------------------
 
+    $valor6 = readline("Q7 Digite seu Peso: ");
+    $valor7 = readline("Q7 Digite sua Altura: ");
+
+    $calc2 = $valor6 / ($valor7 ** 2);
+
+    echo "Result7 IMC: ". $calc2;
+
+    echo "<hr>";
+    
 // ------------------------------
 // Exercício 8
 // Receber um valor, calcular e mostrar um desconto de 9%
