@@ -174,17 +174,28 @@
 
     echo "Result: ". $valor8;
     
-        echo "<hr>";
+    echo "<hr>";
 
 
 // ------------------------------
 // Exercício 14
 // Receber valor de produto, acrescentar 16%, dividir em 10 parcelas, mostrar valor da parcela e valor total
 // ------------------------------
+        
+    $valor16 = readline("Digite um valor: ");
+
+    $calc9 = $valor16 * 16; 
+    $calc10 = $calc9 / 10; 
+
+    echo "Result: ". $calc10;
+    
+    echo "<hr>";
 
 // ------------------------------
 // Exercício 15
 // Receber distância (km) e combustível (litros), calcular e imprimir consumo médio: Consumo médio = Km / litros
 // ------------------------------
+
+    
 
 ?>
